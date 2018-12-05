@@ -1,0 +1,33 @@
+{
+  "name": "orangeabacus",
+  "version": "0.1.0",
+  "description": "A fun ES6 JavaScript node.js project for tracking/recording crypto transactions, trades, and portfolio status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddk632/orange-abacus.git"
+  },
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "portfolio",
+    "tracker"
+  ],
+  "author": "Dmitriy Khaykin @ddk632",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddk632/orange-abacus/issues"
+  },
+  "homepage": "https://github.com/ddk632/orange-abacus#readme",
+  "dependencies": {
+    "cryptocompare": "^0.7.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4",
+    "umzug": "^2.2.0"
+  }
+}
